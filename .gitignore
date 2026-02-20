@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local env
+.env
+.env.*
+
+# Data (don’t commit big/raw datasets)
+data/raw/
+data/cache/
+data/interim/
+data/processed/
+
+# Reports build outputs (optional)
+reports/site/
